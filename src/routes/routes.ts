@@ -17,12 +17,7 @@ router.use(helmet());
 // Middleware
 router.use(bodyParser.json());
 
-router.use(
-    cors({
-        origin: [process.env.CORS_ORIGIN || 'http://localhost:3000'],
-        credentials: true,
-    }),
-);
+router.use(cors({ origin: '*', credentials: true }));
 
 // GET / - Welcome message
 router.get('/', async (req: Request, res: Response) => {
