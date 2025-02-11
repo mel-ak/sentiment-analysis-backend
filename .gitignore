@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+dist/
+.env
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Project
+postman.rest
+Makefile
