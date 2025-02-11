@@ -4,7 +4,6 @@ dist/
 .env
 
 # Docker
-**/Dockerfile
 **/docker-compose.yml
 
 # IDE/Editor
